@@ -103,11 +103,15 @@
 </template>
 
 <script>
+// import Headers from '@/Header.vue'
 export default {
   name: "HelloWorld",
   props: {
     msg: String,
   },
+  // components:{
+  //   Headers
+  // }
 };
 </script>
 
